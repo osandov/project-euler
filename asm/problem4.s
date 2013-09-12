@@ -39,12 +39,12 @@ solve:
 
     xorq %rbx, %rbx /* The cumulative maximum */
     movq $99, %r12
-    1:
+    1: /* Loop %r12 over [100..999] */
         addq $1, %r12
         cmp $1000, %r12
         jge 4f
         movq $99, %r13
-        2:
+        2: /* Loop %r13 over [100..999] */
             addq $1, %r13
             cmp $1000, %r13
             jge 1b

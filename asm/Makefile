@@ -6,6 +6,7 @@ PROBLEMS := \
 	problem5 \
 	problem6 \
 	problem7 \
+	problem8 \
 	problem9 \
 	problem10
 
