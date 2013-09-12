@@ -1,7 +1,7 @@
-.section .text
+.text
+
 .globl solve
 .type solve, @function
-
 solve:
     xorq %rsi, %rsi /* accumulator for the sum */
     xorq %rdi, %rdi /* accumulator for the sum of the squares */

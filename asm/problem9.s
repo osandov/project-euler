@@ -1,7 +1,7 @@
-.section .text
+.text
+
 .globl solve
 .type solve, @function
-
 solve:
     xorq %rdi, %rdi /* b */
     xorq %rdx, %rdx

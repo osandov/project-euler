@@ -1,7 +1,7 @@
-.section .text
+.text
+
 .globl solve
 .type solve, @function
-
 solve:
     xorq %rdi, %rdi
     1: /* Loop %rdi over [1,2..] */

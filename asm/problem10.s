@@ -1,7 +1,7 @@
-.section .text
+.text
+
 .globl solve
 .type solve, @function
-
 solve:
     pushq %rbx
     pushq %r12

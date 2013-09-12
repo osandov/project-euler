@@ -1,7 +1,7 @@
-.section .text
+.text
+
 .globl solve
 .type solve, @function
-
 solve:
     xorq %rax, %rax
     movq $1, %rcx /* Previous Fibonacci number */

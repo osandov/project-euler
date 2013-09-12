@@ -1,4 +1,4 @@
-.section .text
+.text
 
 /*
 struct sieve {
